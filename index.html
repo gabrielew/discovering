@@ -1,0 +1,67 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/jpg" href="assets/favicon.svg" />
+    <link rel="stylesheet" href="/styles/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <title>Discovering</title>
+  </head>
+  <body>
+    <div id="container">
+      <div id="wrapper">
+        <img src="assets/logo.svg" alt="logo" />
+      </div>
+      <div id="cellphone">
+        <div id="screen">
+          <div id="phoneWrapper">
+            <div class="columnDirection">
+              <h4 class="text">Level 2</h4>
+              <div class="progressBar">
+                <span class="progressExperience"></span>
+              </div>
+            </div>
+            <div class="columnDirection imageWrapper">
+              <h4 class="text">What is?</h4>
+              <div class="image">
+                <img src="assets/frog.svg" alt="frog" />
+              </div>
+            </div>
+            <div class="centerWrapper volume">
+              <img  onClick="playAudio()" src="assets/volume.svg" id="image"  alt="volume" />
+            </div>
+            <div class="letterWrapper">
+              <div class="selectedLetterWrapper" id="selectedLetterWrapper">
+                <div class="letterBox selected">F</div>
+                <div class="letterBox selected">R</div>
+                <div class="letterBox selected">O</div>
+                <div class="letterBox selected">G</div>
+              </div>
+              <hr class="horizontalLine" />
+              <hr class="horizontalLine" />
+            </div>
+            <div class="unselectedLetterWrapper">
+              <div class="letterBox unselected">C</div>
+              <div class="letterBox empty"></div>
+              <div class="letterBox unselected">C</div>
+              <div class="letterBox unselected">C</div>
+              <div class="letterBox empty"></div>
+              <div class="letterBox empty"></div>
+              <div class="letterBox unselected">C</div>
+              <div class="letterBox unselected">C</div>
+              <div class="letterBox empty"></div>
+              <div class="letterBox unselected">C</div>
+          </div>
+          <div class="buttons">
+            <button type="button" class="skipButton">Skip</button>
+            <button class="checkButton">Check</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/scripts/scripts.js"></script>
+  </body>
+</html>
