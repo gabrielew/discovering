@@ -13,6 +13,6 @@
 - [ ] Skip image
 - [ ] Check if typed text is right
 
-<div style="display: flex; justify-content: center;">
+<div style="text-align:center">
 <img src="https://raw.githubusercontent.com/gabrielew/discovering/399690bb5624394eba7ace76d43081a5d579c4d0/assets/logo.svg" />
 </div>
